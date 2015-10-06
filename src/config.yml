@@ -1,0 +1,8 @@
+# Yaml syntax http://docs.ansible.com/ansible/YAMLSyntax.html
+---
+dst: /tmp/historyhak
+tgt_file_name: souces.txt
+
+git_email: login.hedin@gmail.com
+git_name: Alex Kalinin
+
