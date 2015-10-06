@@ -67,19 +67,27 @@ class AppWorker
 
 
   def gen_commits_dates
+    year = 2015
+    fist_month = 1
+    last_mount = 9
+    begin_work_at_hour = 9
+    end_work_at_hour = 18
+    min_commits_per_day = 3
+    max_commits_per_day = 10
+
     commit_dates = []
-    1.upto 10 do |m|#mothes
-      max_day_in_month = Date.new(2015, m, -1).mday
+    fist_month.upto last_mount do |m|#mothes
+      max_day_in_month = Date.new(year, m, -1).mday
       1.upto max_day_in_month do |day|
-        process_date = Date.new(2015, m, day)
+        process_date = Date.new(year, m, day)
         begin
           #puts "Processing date 2015-#{m}-#{day}:"
           hours = []
-          rand(3..10).downto 1 do
-            hours << rand(9..18)
+          rand(min_commits_per_day..max_commits_per_day).downto 1 do
+            hours << rand(begin_work_at_hour..end_work_at_hour)
           end
           hours.sort!.each do |h|
-            commit_dates << DateTime.new(2015, m, day, h, rand(0..59), rand(0..59))
+            commit_dates << DateTime.new(year, m, day, h, rand(0..59), rand(0..59))
           end
         end unless process_date.sunday? #we didn't work at sunday :)
       end
