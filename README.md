@@ -1,7 +1,7 @@
 # Forward Into The Past
 ![ProjectLogo](https://raw.githubusercontent.com/AlexKalinin/forward_into_the_past/master/logo.jpg)
 
-## or hacking GitHub-report on "Public contributions" with simple ruby script
+## or hacking GitHub-report on "Public contributions" with simple [ruby script](src/run.rb)
 ![ReportImage](https://raw.githubusercontent.com/AlexKalinin/forward_into_the_past/master/report_image.png)
 
 ## Preface
@@ -20,7 +20,7 @@ $ GIT_COMMITTER_DATE="`date -R`" git commit --date "`date -R`" # for both
 I made several commits and pushed them to GitHub. The GitHub-report showed wrong date on my commits. It works!
 
 Ok, now need to implement this idea on practice. I just began study ruby programming language, so I decided to write 
-simple ruby-scripts to automate this issue (see src/ folder)
+simple ruby-scripts to automate this issue (see [src](src/) folder)
 
 So that was done after pushing repository:
 ![ReportImage](https://raw.githubusercontent.com/AlexKalinin/forward_into_the_past/master/report_image_after_hack.png)
