@@ -5,9 +5,8 @@
 ![ReportImage](https://raw.githubusercontent.com/AlexKalinin/forward_into_the_past/master/report_image.png)
 
 ## Preface
-I have some old my projects which I would want publish on GitHub. I created [old](https://github.com/AlexKalinin/old) repository 
-and pushed everything to the GitHub. But I was confused: The "Public contributions" GitHub-report showing only my last 
-days activity, but these projects I have been developed during several years. So I thought: it would
+I have some my old projects which I would want publish on GitHub. I pushed some of them to the GitHub, but I was confused: The "Public contributions" GitHub-report showing only my last 
+days activity, but I worked on these projects during several years. So I thought: it would
 be nice to spread commits in history. 
 
 In [this post](http://eddmann.com/posts/changing-the-timestamp-of-a-previous-git-commit/) I found that I can change date 
