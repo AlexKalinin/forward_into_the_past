@@ -1,3 +1,6 @@
+[![Code Climate](https://codeclimate.com/repos/5731733cd19eee7a80000880/badges/80901384cf502ddfbebb/gpa.svg)](https://codeclimate.com/repos/5731733cd19eee7a80000880/feed)
+
+
 # Forward Into The Past
 ![ProjectLogo](https://raw.githubusercontent.com/AlexKalinin/forward_into_the_past/master/logo.jpg)
 
